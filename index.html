@@ -15,12 +15,13 @@
             <div class="col-4 offset-4 my-5 p-3  text-bg-warning">
                 <h1 class="text-center">Lista Mail</h1>
                 <ul class="p-5 text-bg-primary">
-                    <div v-for="(mail, c) in mails"  v-show="mails.length == 10">
-                        <li>{{mails[c]}}</li>
-                    </div>
+                <div v-for="(mail, c) in mails"  v-show="mails.length == 10">
+                    <li>{{mails[c]}}</li>
+                </div>
                 </ul>
             </div>
         </div>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 </html>
